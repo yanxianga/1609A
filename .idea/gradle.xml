@@ -8,10 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ap" />
-            <option value="$PROJECT_DIR$/gouwuche" />
-            <option value="$PROJECT_DIR$/myapplication2" />
-            <option value="$PROJECT_DIR$/urlconnection" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

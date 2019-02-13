@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 String data = getData();
                 Log.e("MyMessage",""+data);
+                //String data = getData();
+                Log.e("MyMessage",""+data);
             }
 
 
@@ -46,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     outputStream.write(bytes,0,length);
                 }
                 String value = outputStream.toString();
+
                 return value;
             }
         } catch (MalformedURLException e) {
